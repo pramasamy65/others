@@ -13,10 +13,12 @@ let person : name = {
 };
 person.firstName='';
 
+// Below Type is name, So it will have only name-Type properties
 let anotherPerson : name = {
     lastName : 'Ramasamy'
 };
 
+// Below Type is any, So it will have any properties
 let anotherPerson1 : any = {
     lastName : 'Ramasamy'
 };
